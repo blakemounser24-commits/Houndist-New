@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-screen items-center overflow-hidden bg-forest"
+      className="relative flex min-h-screen items-start overflow-hidden bg-forest"
     >
       {/* Video background */}
       <video
@@ -41,7 +41,7 @@ export default function Hero() {
       <HeroParticles />
 
       {/* Content — editorial, left-weighted */}
-      <div className="container-luxe relative z-10 px-6 pt-10 sm:px-10 lg:px-16">
+      <div className="container-luxe relative z-10 px-6 pt-28 sm:px-10 lg:px-16">
         <div className="max-w-3xl">
           <motion.p
             className="eyebrow"

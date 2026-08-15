@@ -41,7 +41,7 @@ export default function Hero() {
       <HeroParticles />
 
       {/* Content — editorial, left-weighted */}
-      <div className="container-luxe relative z-10 px-6 pt-[88px] sm:px-10 lg:px-16">
+      <div className="container-luxe relative z-10 px-6 pt-[108px] sm:px-10 lg:px-16">
         <div className="max-w-3xl">
           <motion.p
             className="eyebrow"

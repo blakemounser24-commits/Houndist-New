@@ -41,7 +41,7 @@ export default function Hero() {
       <HeroParticles />
 
       {/* Content — editorial, left-weighted */}
-      <div className="container-luxe relative z-10 px-6 pt-[108px] sm:px-10 lg:px-16">
+      <div className="container-luxe relative z-10 px-6 pt-[124px] sm:px-10 lg:px-16">
         <div className="max-w-3xl">
           <motion.p
             className="eyebrow"
@@ -99,7 +99,7 @@ export default function Hero() {
 
           {/* Stats */}
           <motion.div
-            className="mt-8 flex flex-wrap gap-x-10 gap-y-5"
+            className="mt-14 flex flex-wrap gap-x-10 gap-y-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease, delay: 1.5 }}

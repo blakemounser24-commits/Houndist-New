@@ -78,7 +78,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
-            className="mt-10 flex flex-wrap items-center gap-4"
+            className="mt-16 flex flex-wrap items-center gap-4"
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease, delay: 1.25 }}
@@ -99,7 +99,7 @@ export default function Hero() {
 
           {/* Stats */}
           <motion.div
-            className="mt-14 flex flex-wrap gap-x-10 gap-y-5"
+            className="mt-24 flex flex-wrap gap-x-10 gap-y-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease, delay: 1.5 }}

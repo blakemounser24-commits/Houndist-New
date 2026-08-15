@@ -7,10 +7,7 @@ import { offer } from "@/lib/content";
 
 export default function WhatWeOffer() {
   return (
-    <section
-      id="services"
-      className="relative bg-cream px-6 pb-20 pt-10 sm:px-10 sm:pt-14 md:pb-28 md:pt-16 lg:pb-[120px] lg:pt-20"
-    >
+    <section id="services" className="section-pad relative bg-cream">
       <div className="container-luxe">
         <SectionHeader eyebrow={offer.eyebrow} title={offer.title} sub={offer.sub} />
 

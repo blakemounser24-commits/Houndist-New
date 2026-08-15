@@ -8,15 +8,7 @@ import { nav } from "@/lib/content";
 const ease = [0.16, 1, 0.3, 1];
 
 export default function Navigation() {
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -35,7 +27,7 @@ export default function Navigation() {
       >
         <nav className="container-luxe flex items-center justify-between px-6 py-4 sm:px-10 lg:px-16">
           <a href="#top" aria-label="The Houndist — home">
-            <Logo size={scrolled ? 40 : 44} />
+            <Logo size={44} />
           </a>
 
           <div className="hidden items-center gap-9 lg:flex">

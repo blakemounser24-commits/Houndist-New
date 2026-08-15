@@ -41,7 +41,7 @@ export default function Hero() {
       <HeroParticles />
 
       {/* Content — editorial, left-weighted */}
-      <div className="container-luxe relative z-10 px-6 pt-24 sm:px-10 lg:px-16">
+      <div className="container-luxe relative z-10 px-6 pt-[88px] sm:px-10 lg:px-16">
         <div className="max-w-3xl">
           <motion.p
             className="eyebrow"
@@ -52,7 +52,7 @@ export default function Hero() {
             {hero.eyebrow}
           </motion.p>
 
-          <h1 className="mt-8 font-display text-[2.3rem] font-semibold leading-[1.05] tracking-[-0.015em] text-cream sm:text-5xl lg:text-[3.75rem]">
+          <h1 className="mt-10 font-display text-[2.3rem] font-semibold leading-[1.05] tracking-[-0.015em] text-cream sm:text-5xl lg:text-[3.75rem]">
             {words.map((w, i) => (
               <span key={i} className="inline-block overflow-hidden align-bottom">
                 <motion.span
@@ -78,7 +78,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
-            className="mt-16 flex flex-wrap items-center gap-4"
+            className="mt-14 flex flex-wrap items-center gap-4"
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease, delay: 1.25 }}
@@ -99,7 +99,7 @@ export default function Hero() {
 
           {/* Stats */}
           <motion.div
-            className="mt-24 flex flex-wrap gap-x-10 gap-y-5"
+            className="mt-28 flex flex-wrap gap-x-10 gap-y-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease, delay: 1.5 }}

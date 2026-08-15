@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-screen items-start overflow-hidden bg-forest"
+      className="relative flex h-screen min-h-[640px] max-h-[960px] items-start overflow-hidden bg-forest"
     >
       {/* Video background */}
       <video

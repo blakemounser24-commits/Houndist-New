@@ -52,7 +52,7 @@ export default function Hero() {
             {hero.eyebrow}
           </motion.p>
 
-          <h1 className="mt-8 font-display text-[2.3rem] font-semibold leading-[1.05] tracking-[-0.015em] text-cream sm:text-5xl lg:text-[3.75rem]">
+          <h1 className="mt-14 font-display text-[2.3rem] font-semibold leading-[1.05] tracking-[-0.015em] text-cream sm:text-5xl lg:text-[3.75rem]">
             {words.map((w, i) => (
               <span key={i} className="inline-block overflow-hidden align-bottom">
                 <motion.span
@@ -78,7 +78,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
-            className="mt-14 flex flex-wrap items-center gap-4"
+            className="mt-11 flex flex-wrap items-center gap-4"
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease, delay: 1.25 }}
@@ -99,7 +99,7 @@ export default function Hero() {
 
           {/* Stats */}
           <motion.div
-            className="mt-20 flex flex-wrap gap-x-10 gap-y-5"
+            className="mt-[72px] flex flex-wrap gap-x-10 gap-y-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease, delay: 1.5 }}
